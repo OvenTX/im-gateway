@@ -1,0 +1,52 @@
+{
+  "port": 3000,
+  "publicUrl": "https://example.com",
+  "channels": {
+    "feishu": {
+      "defaultAccountId": "default",
+      "accounts": {
+        "default": {
+          "name": "Feishu Bot",
+          "enabled": true,
+          "appId": "cli_xxxxxxxxxxxxxxxx",
+          "appSecret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "domain": "feishu",
+          "verificationToken": "",
+          "encryptKey": ""
+        }
+      }
+    },
+    "telegram": {
+      "defaultAccountId": "default",
+      "accounts": {
+        "default": {
+          "name": "Telegram Bot",
+          "enabled": true,
+          "botToken": "1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        }
+      }
+    },
+    "slack": {
+      "defaultAccountId": "default",
+      "accounts": {
+        "default": {
+          "name": "Slack Bot",
+          "enabled": true,
+          "botToken": "xoxb-your-bot-token",
+          "appToken": "xapp-your-app-level-token",
+          "signingSecret": "your-signing-secret"
+        }
+      }
+    },
+    "discord": {
+      "defaultAccountId": "default",
+      "accounts": {
+        "default": {
+          "name": "Discord Bot",
+          "enabled": true,
+          "botToken": "your.discord.bot.token"
+        }
+      }
+    }
+  }
+}
